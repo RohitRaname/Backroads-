@@ -171,7 +171,7 @@ img {
 }
 
 .section-container {
-  padding:0 2.4rem;
+  padding: 0 2.4rem;
   max-width: 120rem;
   width: 100%;
   margin: 0 auto;
@@ -220,13 +220,16 @@ a:hover {
 }
 .nav-icons {
   display: flex;
-  gap: 1.3rem;
   font-size: 2rem;
+  gap:1.3rem;
+  
 }
 .nav-icon {
   color: var(--clr-primary-5);
   cursor: pointer;
   transition: var(--transition);
+  display: inline-block;
+
 }
 .nav-icon:hover {
   color: var(--clr-primary-8);
@@ -375,6 +378,7 @@ a:hover {
   gap: 6.4rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 30rem));
+  justify-content: center;
 }
 
 .services .feature-title {

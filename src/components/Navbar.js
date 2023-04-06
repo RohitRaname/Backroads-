@@ -25,7 +25,7 @@ const Navbar = () => {
         )} */}
       </div>
 
-      <div className="nav-right nav-icons">
+      <ul className="nav-right nav-icons">
         {socialLinks.map((link) => (
           <Icon
             href={link.href}
@@ -34,7 +34,7 @@ const Navbar = () => {
             icon={link.icon}
           />
         ))}
-      </div>
+      </ul>
 
       <div className="nav-menu-btn">
         <p></p>
