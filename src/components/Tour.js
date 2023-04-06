@@ -8,7 +8,7 @@ const TourList = () => {
         return (
           <div className="tour" key={_id}>
             <div className="tour-img-container">
-              <img className="tour-img" src={image} />
+              <img className="tour-img" src={image} alt=""/>
               <div className="tour-date">
                 <span>{date}</span>
               </div>
