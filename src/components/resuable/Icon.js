@@ -4,7 +4,7 @@ const Icon = ({ href, icon, className }) => {
   return (
     <li>
 
-    <a href={href} target="_blank" className={className} icon={icon}>
+    <a href={href}  className={className} icon={icon}>
       <i className={icon}></i>
     </a>
     </li>
